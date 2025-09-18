@@ -1,0 +1,11 @@
+{
+  "name": "Angel Oropeza",
+  "title": "Backend Developer",
+  "bio": "Soy un desarrollador backend junior con foco en Node.js. Tengo experiencia construyendo APIs y sistemas escalables utilizando Express, MySQL y MongoDB, así como tecnologías de soporte como RabbitMQ, Elasticsearch y Redis. También manejo ORMs como Sequelize y Mongoose. Me motiva crear soluciones eficientes y optimizadas para entornos reales.",
+  "avatar": "assets/images/avatar.png",
+  "email": "angeloropeza1604@gmail.com",
+  "location": "Venezuela",
+  "linkedin": "https://www.linkedin.com/in/angel-oropeza-00925236a/",
+  "github": "https://github.com/Angelitoo777",
+  "theme_color": "#7c3aed"
+}
