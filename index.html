@@ -1,41 +1,36 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Angel Oropeza — Portfolio</title>
 <link rel="icon" href="./assets/images/avatar.png"/>
 <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
-<body class="smooth">
-<main class="container">
-  <nav class="header">
-    <div class="profile">
-      <img id="avatar" class="avatar" src="./assets/images/avatar.png" alt="avatar"/>
-      <div>
-        <h1 id="name">...</h1>
-        <p id="title" class="muted">...</p>
-        <p id="bio" class="lead">...</p>
+<body>
+  <header class="header container">
+    <div class="brand"><div class="logo">AN</div>
+      <nav class="nav" aria-label="main navigation"><a href="#about">Sobre mí</a><a href="#experience">Experiencia</a><a href="#projects">Proyectos</a><a href="#contact">Contacto</a></nav></div>
+    <div class="nav"><a id="linkedin" href="#" target="_blank">LinkedIn</a><button id="theme-btn" class="theme-toggle">🌙</button></div>
+  </header>
+  <main class="container">
+    <section id="about" class="hero reveal" style="background-image:url('./assets/images/hero_bg.png');background-size:cover;border-radius:12px;padding:34px">
+      <div class="hero-left">
+        <h1 class="hero-title" id="name">Loading…</h1>
+        <p class="lead" id="title">–</p>
+        <p class="lead" id="bio" style="margin-top:16px">…</p>
+        <div class="ctas" id="hero-ctas"></div>
       </div>
-    </div>
-    <div>
-      <button id="theme-btn" class="theme-toggle">🌙</button>
-      <a id="contact-email" class="btn" href="#">Contactar</a>
-    </div>
-  </nav>
-
-  <section id="projects" class="mt-8">
-    <h2 style="margin:0 0 12px 0">Proyectos destacados</h2>
-    <div id="highlights" class="grid"></div>
-  </section>
-
-  <section style="margin-top:28px;">
-    <h2 style="margin:0 0 12px 0">Otros proyectos</h2>
-    <div id="others" class="grid"></div>
-  </section>
-
-  <footer class="footer">© 2025 Angel Oropeza</footer>
-</main>
-<script src="./assets/js/main.js"></script>
+      <div class="hero-right card reveal">
+        <img id="avatar" src="./assets/images/avatar.png" alt="avatar" style="width:100%;height:320px;object-fit:cover;border-radius:8px"/>
+        <p class="muted" style="margin-top:12px">Contacto: <a id="contact-email" href="mailto:angeloropeza1604@gmail.com">angeloropeza1604@gmail.com</a></p>
+      </div>
+    </section>
+    <section id="experience" style="margin-top:32px"><h2 class="reveal">Experiencia</h2><div id="timeline" class="timeline" style="margin-top:12px"></div></section>
+    <section id="projects" style="margin-top:32px"><h2 class="reveal">Proyectos destacados</h2><div id="highlights" class="grid-3" style="margin-top:12px"></div><h3 style="margin-top:24px">Otros proyectos</h3><div id="others" class="grid-3" style="margin-top:12px"></div></section>
+    <section id="skills" style="margin-top:32px"><h2 class="reveal">Skills</h2><div id="skills" class="skills-grid" style="margin-top:12px"></div></section>
+    <section id="contact" style="margin-top:32px"><h2 class="reveal">Contacto</h2><p class="muted">¿Quieres trabajar conmigo? Envíame un correo a <a id="contact-email-2" href="mailto:angeloropeza1604@gmail.com">angeloropeza1604@gmail.com</a></p></section>
+    <footer><p>© 2025 Angel Oropeza — Portfolio</p></footer>
+  </main>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

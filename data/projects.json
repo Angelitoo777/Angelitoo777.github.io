@@ -1,15 +1,13 @@
 [
   {
-    "name": "Sistema-de-facturacion",
-    "description": "Sistema de facturación RESTful para clientes, productos y facturas. Genera PDFs y ofrece endpoints para gestión y descarga de facturas.",
-    "technologies": [
+    "name": "Sistema de Facturación",
+    "desc": "Backend RESTful para gestión de clientes y facturas con generación de PDFs.",
+    "tech": [
       "Node.js",
-      "Express.js",
+      "Express",
       "MySQL",
       "Sequelize",
-      "PDFKit",
-      "Zod",
-      "bcrypt"
+      "PDFKit"
     ],
     "image": "./assets/images/facturacion_console.png",
     "repo": "https://github.com/Angelitoo777/Sistema-de-facturacion",
@@ -17,34 +15,30 @@
     "highlight": true
   },
   {
-    "name": "API-de-un-Sistema-de-Auditoria-y-Eventos",
-    "description": "API de auditoría que registra acciones de usuarios usando patrón Outbox; publica eventos a RabbitMQ and indexa en Elasticsearch for searches.",
-    "technologies": [
+    "name": "API Auditorías",
+    "desc": "Sistema que registra eventos mediante patrón Outbox y los publica en RabbitMQ para su indexación.",
+    "tech": [
       "Node.js",
-      "Express.js",
+      "Express",
       "MySQL",
       "Sequelize",
       "RabbitMQ",
-      "Elasticsearch",
-      "Redis",
-      "Zod",
-      "JWT"
+      "Elasticsearch"
     ],
     "image": "./assets/images/auditoria_console.png",
     "repo": "https://github.com/Angelitoo777/API-de-un-Sistema-de-Auditor-a-y-Eventos",
     "highlight": true
   },
   {
-    "name": "API-de-Un-Sistema-de-Subastas-en-Linea",
-    "description": "Backend de subastas online: gestión de productos, subastas y pujas en tiempo real; notificaciones via RabbitMQ y cron jobs para finalizar subastas.",
-    "technologies": [
+    "name": "API Subastas",
+    "desc": "API modular para subastas con notificaciones por RabbitMQ y cron jobs que cierran subastas.",
+    "tech": [
       "Node.js",
-      "Express.js",
+      "Express",
       "MySQL",
       "Sequelize",
       "RabbitMQ",
-      "cron jobs",
-      "JWT"
+      "cron"
     ],
     "image": "./assets/images/subastas_console.png",
     "repo": "https://github.com/Angelitoo777/API-de-Un-Sistema-de-Subastas-en-Linea",
