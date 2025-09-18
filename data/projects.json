@@ -1,7 +1,7 @@
 [
   {
     "name": "Sistema de Facturación",
-    "desc": "Backend RESTful para gestión de clientes y facturas. Generación de PDFs y demo desplegado.",
+    "desc": "Backend RESTful para gestión de clientes y facturas. Demo desplegado.",
     "tech": [
       "Node.js",
       "Express",
@@ -9,39 +9,37 @@
       "Sequelize",
       "PDFKit"
     ],
-    "image": "./assets/images/facturacion_console.png",
+    "image": "assets/images/facturacion.png",
     "repo": "https://github.com/Angelitoo777/Sistema-de-facturacion",
     "demo": "https://my-billing-app-tan.vercel.app/",
     "highlight": true
   },
   {
-    "name": "API Auditorías",
-    "desc": "Sistema de auditoría con patrón Outbox, publicación en RabbitMQ e indexación en Elasticsearch.",
+    "name": "API de Auditorías",
+    "desc": "Sistema de auditorías con patrón Outbox, RabbitMQ y Elasticsearch.",
     "tech": [
       "Node.js",
       "Express",
       "MySQL",
-      "Sequelize",
       "RabbitMQ",
       "Elasticsearch",
       "Redis"
     ],
-    "image": "./assets/images/auditoria_console.png",
+    "image": "assets/images/auditorias.png",
     "repo": "https://github.com/Angelitoo777/API-de-un-Sistema-de-Auditor-a-y-Eventos",
     "highlight": true
   },
   {
     "name": "API Subastas",
-    "desc": "API modular para subastas online con notificaciones vía RabbitMQ y cron jobs para cierre automático de subastas.",
+    "desc": "API modular para subastas online con notificaciones vía RabbitMQ y cron jobs.",
     "tech": [
       "Node.js",
       "Express",
       "MySQL",
-      "Sequelize",
       "RabbitMQ",
-      "cron"
+      "Sequelize"
     ],
-    "image": "./assets/images/subastas_console.png",
+    "image": "assets/images/subastas.png",
     "repo": "https://github.com/Angelitoo777/API-de-Un-Sistema-de-Subastas-en-Linea",
     "highlight": true
   }

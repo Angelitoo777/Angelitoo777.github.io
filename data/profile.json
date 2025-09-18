@@ -2,7 +2,7 @@
   "name": "Angel Oropeza",
   "title": "Backend Developer",
   "bio": "Desarrollador backend junior especializado en Node.js y arquitecturas orientadas a eventos. Experiencia con Express, MySQL, MongoDB, RabbitMQ y Redis. Me enfoco en construir APIs robustas y mantenibles.",
-  "avatar": "./assets/images/avatar.png",
+  "avatar": "assets/images/avatar.png",
   "email": "angeloropeza1604@gmail.com",
   "location": "Venezuela",
   "linkedin": "https://www.linkedin.com/in/angel-oropeza-00925236a/",
