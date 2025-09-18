@@ -1,114 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Angel Oropeza — Portfolio</title>
-<link rel="icon" href="./assets/images/avatar.png"/>
-<link rel="stylesheet" href="./assets/css/styles.css"/>
-</head>
-<body>
-  <header class="header container">
-    <div class="brand">
-      <div class="logo">AO</div>
-      <nav class="nav" aria-label="main navigation">
-        <a href="#about">Sobre mí</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#contact">Contacto</a>
-      </nav>
-    </div>
-    <div class="nav">
-      <a id="linkedin" href="#" target="_blank">LinkedIn</a>
-      <a id="contact-email" class="btn-ghost" href="#">Contactar</a>
-    </div>
-  </header>
-
-  <main class="container">
-    <section id="about" class="hero reveal" style="background-image:url('./assets/images/hero_bg.png');background-size:cover;border-radius:12px;padding:28px">
-      <div class="hero-left">
-        <h1 class="hero-title" id="name">Loading…</h1>
-        <p class="lead" id="title">—</p>
-        <p class="lead" id="bio">…</p>
-        <div class="ctas" id="hero-ctas">
-          <a class="btn-primary" href="#projects">Ver proyectos</a>
-          <a class="btn-ghost" href="https://github.com/Angelitoo777" target="_blank">GitHub</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Oropeza | Backend Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="dark">
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">AO</div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="https://www.linkedin.com/in/angel-oropeza-00925236a/" target="_blank">LinkedIn</a>
+          <a href="mailto:angeloropeza1604@gmail.com" class="btn">Contactar</a>
         </div>
-      </div>
-      <div class="hero-right card reveal">
-        <img id="avatar" src="./assets/images/avatar.png" alt="avatar" style="width:100%;height:320px;object-fit:cover;border-radius:8px"/>
-        <p class="muted" style="margin-top:12px">Ubicación: Venezuela</p>
-      </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero reveal">
+      <h1>Angel Oropeza</h1>
+      <p>Backend Developer especializado en Node.js, Express, bases de datos SQL/NoSQL y microservicios.</p>
+      <a href="#projects" class="btn">Ver Proyectos</a>
     </section>
 
-    <div class="sep"></div>
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un programador backend junior enfocado en <strong>Node.js</strong>, con experiencia en
+        <strong>Express.js</strong>, <strong>MySQL</strong>, <strong>MongoDB</strong>, <strong>RabbitMQ</strong>,
+        <strong>Elasticsearch</strong>, <strong>Redis</strong>, y ORMs como <strong>Sequelize</strong> y
+        <strong>Mongoose</strong>.  
+        Me apasiona construir APIs REST robustas, trabajar con microservicios y aplicar buenas prácticas en el
+        desarrollo de aplicaciones escalables.
+      </p>
+    </section>
 
+    <!-- Skills -->
     <section id="skills" class="section reveal">
       <h2>Skills</h2>
-      <p class="muted" style="margin-top:8px">Tecnologías principales que utilizo en proyectos reales.</p>
+      <div class="skills-grid">
+        <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" title="JavaScript (Node.js)" />
+        <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" title="Node.js" />
+        <img src="https://skillicons.dev/icons?i=express" alt="Express.js" title="Express.js" />
+        <img src="https://skillicons.dev/icons?i=sequelize" alt="Sequelize" title="Sequelize" />
+        <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL" />
+        <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" title="Mongoose (ODM)" />
+        <img src="https://skillicons.dev/icons?i=redis" alt="Redis" title="Redis" />
+        <img src="https://skillicons.dev/icons?i=elasticsearch" alt="ElasticSearch" title="ElasticSearch" />
+        <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" title="RabbitMQ" />
+        <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" />
+        <img src="https://skillicons.dev/icons?i=aws" alt="AWS" title="AWS" />
+        <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" />
+        <img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub" />
+      </div>
+    </section>
 
-      <div style="margin-top:18px">
-        <!-- Languages -->
-        <div class="card" style="margin-bottom:18px;text-align:center">
-          <h3 style="margin:0 0 8px 0">Lenguajes</h3>
-          <div class="skills-grid" style="margin-top:12px">
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" style="width:44px;height:44px"/></div>
-          </div>
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <h2>Proyectos Destacados</h2>
+      <div class="projects-grid">
+        <!-- Proyecto Facturación -->
+        <div class="card">
+          <h3>Sistema de Facturación</h3>
+          <p>Gestión de clientes, productos y facturas con generación de reportes en PDF.</p>
+          <a href="https://my-billing-app-tan.vercel.app/" target="_blank">Demo</a>
+          <a href="https://github.com/Angelitoo777/Sistema-de-facturacion" target="_blank">Repositorio</a>
         </div>
-
-        <!-- Frameworks -->
-        <div class="card" style="margin-bottom:18px;text-align:center">
-          <h3 style="margin:0 0 8px 0">Frameworks / Librerías</h3>
-          <div class="skills-grid" style="margin-top:12px">
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=express" alt="Express" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=sequelize" alt="Sequelize" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=mongoose" alt="Mongoose" style="width:44px;height:44px"/></div>
-          </div>
+        <!-- Proyecto Auditorías -->
+        <div class="card">
+          <h3>API de Auditorías</h3>
+          <p>Microservicio con RabbitMQ, Elasticsearch y Redis para auditorías escalables.</p>
+          <a href="https://github.com/Angelitoo777/API-de-un-Sistema-de-Auditor-a-y-Eventos" target="_blank">Repositorio</a>
         </div>
-
-        <!-- Databases -->
-        <div class="card" style="margin-bottom:18px;text-align:center">
-          <h3 style="margin:0 0 8px 0">Bases de Datos</h3>
-          <div class="skills-grid" style="margin-top:12px">
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=redis" alt="Redis" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=elasticsearch" alt="ElasticSearch" style="width:44px;height:44px"/></div>
-          </div>
-        </div>
-
-        <!-- Messaging & Containers & Cloud -->
-        <div class="card" style="margin-bottom:18px;text-align:center">
-          <h3 style="margin:0 0 8px 0">Mensajería / Contenedores / Cloud</h3>
-          <div class="skills-grid" style="margin-top:12px">
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" style="width:44px;height:44px"/></div>
-            <div class="skill-item"><img src="https://skillicons.dev/icons?i=git,github" alt="Git GitHub" style="width:44px;height:44px"/></div>
-          </div>
+        <!-- Proyecto Subastas -->
+        <div class="card">
+          <h3>Subastas en Línea</h3>
+          <p>Aplicación backend para subastas con Node.js y MySQL.</p>
+          <a href="https://github.com/Angelitoo777/Subastas-en-Linea" target="_blank">Repositorio</a>
         </div>
       </div>
     </section>
 
-    <div class="sep"></div>
-
-    <section id="projects" class="section reveal">
-      <h2>Proyectos destacados</h2>
-      <p class="muted" style="margin-top:8px">Proyectos backend relevantes que muestran arquitectura, mensajería y generación de documentos.</p>
-      <div id="highlights" class="grid-3" style="margin-top:18px"></div>
-    </section>
-
-    <div class="sep"></div>
-
+    <!-- Contact -->
     <section id="contact" class="section reveal">
       <h2>Contacto</h2>
-      <p class="muted">Si quieres hablar sobre un proyecto o colaborar, escríbeme a <a id="contact-email-2" href="mailto:angeloropeza1604@gmail.com">angeloropeza1604@gmail.com</a>.</p>
+      <p>Puedes escribirme directamente a mi correo o conectar en LinkedIn.</p>
+      <a href="mailto:angeloropeza1604@gmail.com" class="btn">Enviar Email</a>
     </section>
 
-    <footer class="footer"><p>© 2025 Angel Oropeza — Portfolio</p></footer>
-  </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© 2024 Angel Oropeza | Backend Developer</p>
+    </footer>
 
-  <script src="./assets/js/main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
