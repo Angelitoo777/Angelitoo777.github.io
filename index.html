@@ -1,36 +1,114 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Angel Oropeza — Portfolio</title>
 <link rel="icon" href="./assets/images/avatar.png"/>
 <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
 <body>
   <header class="header container">
-    <div class="brand"><div class="logo">AN</div>
-      <nav class="nav" aria-label="main navigation"><a href="#about">Sobre mí</a><a href="#experience">Experiencia</a><a href="#projects">Proyectos</a><a href="#contact">Contacto</a></nav></div>
-    <div class="nav"><a id="linkedin" href="#" target="_blank">LinkedIn</a><button id="theme-btn" class="theme-toggle">🌙</button></div>
+    <div class="brand">
+      <div class="logo">AO</div>
+      <nav class="nav" aria-label="main navigation">
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+    <div class="nav">
+      <a id="linkedin" href="#" target="_blank">LinkedIn</a>
+      <a id="contact-email" class="btn-ghost" href="#">Contactar</a>
+    </div>
   </header>
+
   <main class="container">
-    <section id="about" class="hero reveal" style="background-image:url('./assets/images/hero_bg.png');background-size:cover;border-radius:12px;padding:34px">
+    <section id="about" class="hero reveal" style="background-image:url('./assets/images/hero_bg.png');background-size:cover;border-radius:12px;padding:28px">
       <div class="hero-left">
         <h1 class="hero-title" id="name">Loading…</h1>
-        <p class="lead" id="title">–</p>
-        <p class="lead" id="bio" style="margin-top:16px">…</p>
-        <div class="ctas" id="hero-ctas"></div>
+        <p class="lead" id="title">—</p>
+        <p class="lead" id="bio">…</p>
+        <div class="ctas" id="hero-ctas">
+          <a class="btn-primary" href="#projects">Ver proyectos</a>
+          <a class="btn-ghost" href="https://github.com/Angelitoo777" target="_blank">GitHub</a>
+        </div>
       </div>
       <div class="hero-right card reveal">
         <img id="avatar" src="./assets/images/avatar.png" alt="avatar" style="width:100%;height:320px;object-fit:cover;border-radius:8px"/>
-        <p class="muted" style="margin-top:12px">Contacto: <a id="contact-email" href="mailto:angeloropeza1604@gmail.com">angeloropeza1604@gmail.com</a></p>
+        <p class="muted" style="margin-top:12px">Ubicación: Venezuela</p>
       </div>
     </section>
-    <section id="experience" style="margin-top:32px"><h2 class="reveal">Experiencia</h2><div id="timeline" class="timeline" style="margin-top:12px"></div></section>
-    <section id="projects" style="margin-top:32px"><h2 class="reveal">Proyectos destacados</h2><div id="highlights" class="grid-3" style="margin-top:12px"></div><h3 style="margin-top:24px">Otros proyectos</h3><div id="others" class="grid-3" style="margin-top:12px"></div></section>
-    <section id="skills" style="margin-top:32px"><h2 class="reveal">Skills</h2><div id="skills" class="skills-grid" style="margin-top:12px"></div></section>
-    <section id="contact" style="margin-top:32px"><h2 class="reveal">Contacto</h2><p class="muted">¿Quieres trabajar conmigo? Envíame un correo a <a id="contact-email-2" href="mailto:angeloropeza1604@gmail.com">angeloropeza1604@gmail.com</a></p></section>
-    <footer><p>© 2025 Angel Oropeza — Portfolio</p></footer>
+
+    <div class="sep"></div>
+
+    <section id="skills" class="section reveal">
+      <h2>Skills</h2>
+      <p class="muted" style="margin-top:8px">Tecnologías principales que utilizo en proyectos reales.</p>
+
+      <div style="margin-top:18px">
+        <!-- Languages -->
+        <div class="card" style="margin-bottom:18px;text-align:center">
+          <h3 style="margin:0 0 8px 0">Lenguajes</h3>
+          <div class="skills-grid" style="margin-top:12px">
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" style="width:44px;height:44px"/></div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card" style="margin-bottom:18px;text-align:center">
+          <h3 style="margin:0 0 8px 0">Frameworks / Librerías</h3>
+          <div class="skills-grid" style="margin-top:12px">
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=express" alt="Express" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=sequelize" alt="Sequelize" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=mongoose" alt="Mongoose" style="width:44px;height:44px"/></div>
+          </div>
+        </div>
+
+        <!-- Databases -->
+        <div class="card" style="margin-bottom:18px;text-align:center">
+          <h3 style="margin:0 0 8px 0">Bases de Datos</h3>
+          <div class="skills-grid" style="margin-top:12px">
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=redis" alt="Redis" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=elasticsearch" alt="ElasticSearch" style="width:44px;height:44px"/></div>
+          </div>
+        </div>
+
+        <!-- Messaging & Containers & Cloud -->
+        <div class="card" style="margin-bottom:18px;text-align:center">
+          <h3 style="margin:0 0 8px 0">Mensajería / Contenedores / Cloud</h3>
+          <div class="skills-grid" style="margin-top:12px">
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" style="width:44px;height:44px"/></div>
+            <div class="skill-item"><img src="https://skillicons.dev/icons?i=git,github" alt="Git GitHub" style="width:44px;height:44px"/></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep"></div>
+
+    <section id="projects" class="section reveal">
+      <h2>Proyectos destacados</h2>
+      <p class="muted" style="margin-top:8px">Proyectos backend relevantes que muestran arquitectura, mensajería y generación de documentos.</p>
+      <div id="highlights" class="grid-3" style="margin-top:18px"></div>
+    </section>
+
+    <div class="sep"></div>
+
+    <section id="contact" class="section reveal">
+      <h2>Contacto</h2>
+      <p class="muted">Si quieres hablar sobre un proyecto o colaborar, escríbeme a <a id="contact-email-2" href="mailto:angeloropeza1604@gmail.com">angeloropeza1604@gmail.com</a>.</p>
+    </section>
+
+    <footer class="footer"><p>© 2025 Angel Oropeza — Portfolio</p></footer>
   </main>
+
   <script src="./assets/js/main.js"></script>
 </body>
 </html>

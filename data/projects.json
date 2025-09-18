@@ -1,7 +1,7 @@
 [
   {
     "name": "Sistema de Facturación",
-    "desc": "Backend RESTful para gestión de clientes y facturas con generación de PDFs.",
+    "desc": "Backend RESTful para gestión de clientes y facturas. Generación de PDFs y demo desplegado.",
     "tech": [
       "Node.js",
       "Express",
@@ -16,14 +16,15 @@
   },
   {
     "name": "API Auditorías",
-    "desc": "Sistema que registra eventos mediante patrón Outbox y los publica en RabbitMQ para su indexación.",
+    "desc": "Sistema de auditoría con patrón Outbox, publicación en RabbitMQ e indexación en Elasticsearch.",
     "tech": [
       "Node.js",
       "Express",
       "MySQL",
       "Sequelize",
       "RabbitMQ",
-      "Elasticsearch"
+      "Elasticsearch",
+      "Redis"
     ],
     "image": "./assets/images/auditoria_console.png",
     "repo": "https://github.com/Angelitoo777/API-de-un-Sistema-de-Auditor-a-y-Eventos",
@@ -31,7 +32,7 @@
   },
   {
     "name": "API Subastas",
-    "desc": "API modular para subastas con notificaciones por RabbitMQ y cron jobs que cierran subastas.",
+    "desc": "API modular para subastas online con notificaciones vía RabbitMQ y cron jobs para cierre automático de subastas.",
     "tech": [
       "Node.js",
       "Express",
