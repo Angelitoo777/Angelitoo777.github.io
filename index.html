@@ -1,104 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Angel Oropeza | Portfolio</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel Oropeza | Backend Developer</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <header class="header container">
     <div class="brand">
       <div class="logo">AO</div>
-      <nav class="nav">
-        <a href="#about">Sobre mí</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#contact">Contacto</a>
-      </nav>
     </div>
+    <nav class="nav">
+      <a href="#about">Sobre mí</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#contact">Contacto</a>
+    </nav>
     <div>
-      <a class="btn-ghost" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-      <a class="btn-primary" href="mailto:angeloropeza1604@gmail.com">Contactar</a>
+      <a href="https://linkedin.com" target="_blank" class="btn-ghost">LinkedIn</a>
+      <a href="mailto:angeloropeza1604@gmail.com" class="btn-primary">Contactar</a>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero container">
-    <div class="hero-left">
-      <h1 class="hero-title">Angel Oropeza</h1>
-      <p class="lead">
-        Backend Developer especializado en Node.js, Express, bases de datos SQL/NoSQL y microservicios.
-      </p>
-      <div class="ctas">
-        <a href="#projects" class="btn-primary">Ver Proyectos</a>
+  <main class="container">
+    <section id="about" class="hero reveal">
+      <div class="hero-left">
+        <h1 class="hero-title">Angel Oropeza</h1>
+        <p class="lead">Backend Developer especializado en Node.js, Express, bases de datos SQL/NoSQL y microservicios.</p>
+        <div class="ctas">
+          <a href="#projects" class="btn-primary">Ver Proyectos</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="sep"></div>
+    <div class="sep"></div>
 
-  <!-- Sobre mí -->
-  <section id="about" class="container section">
-    <h2>Sobre mí</h2>
-    <p>
-      Soy un programador backend junior enfocado en <b>Node.js</b>, con experiencia en 
-      <b>Express.js</b>, <b>MySQL</b>, <b>MongoDB</b>, <b>RabbitMQ</b>, <b>Elasticsearch</b>, <b>Redis</b>, 
-      y ORMs como <b>Sequelize</b> y <b>Mongoose</b>. Me apasiona construir APIs REST robustas, 
-      trabajar con microservicios y aplicar buenas prácticas en el desarrollo de aplicaciones escalables.
-    </p>
-  </section>
-
-  <div class="sep"></div>
-
-  <!-- Skills -->
-  <section id="skills" class="container section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=js" title="JavaScript"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=nodejs" title="Node.js"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=express" title="Express.js"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=sequelize" title="Sequelize"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=mongodb" title="MongoDB"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=mysql" title="MySQL"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=redis" title="Redis"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=docker" title="Docker"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=aws" title="AWS"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=git" title="Git"></div>
-      <div class="skill-item"><img src="https://skillicons.dev/icons?i=github" title="GitHub"></div>
-    </div>
-  </section>
-
-  <div class="sep"></div>
-
-  <!-- Proyectos -->
-  <section id="projects" class="container section">
-    <h2>Proyectos Destacados</h2>
-    <div class="grid-3">
-      <div class="card project-card">
-        <h3>Sistema de Facturación</h3>
-        <p>Gestión de clientes, productos y facturas con generación de reportes en PDF.</p>
-        <a href="https://github.com/Angelitoo777/sistema-de-facturacion" target="_blank">Demo Repositorio</a>
+    <section id="skills" class="section reveal">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item" title="JavaScript">
+          <img src="assets/images/js.svg" alt="JavaScript">
+        </div>
+        <div class="skill-item" title="Node.js">
+          <img src="assets/images/nodejs.svg" alt="Node.js">
+        </div>
+        <div class="skill-item" title="Express.js">
+          <img src="assets/images/express.svg" alt="Express.js">
+        </div>
+        <div class="skill-item" title="Sequelize">
+          <img src="assets/images/sequelize.svg" alt="Sequelize">
+        </div>
+        <div class="skill-item" title="Mongoose">
+          <img src="assets/images/mongoose.svg" alt="Mongoose">
+        </div>
+        <div class="skill-item" title="MySQL">
+          <img src="assets/images/mysql.svg" alt="MySQL">
+        </div>
+        <div class="skill-item" title="MongoDB">
+          <img src="assets/images/mongodb.svg" alt="MongoDB">
+        </div>
+        <div class="skill-item" title="Redis">
+          <img src="assets/images/redis.svg" alt="Redis">
+        </div>
+        <div class="skill-item" title="ElasticSearch">
+          <img src="assets/images/elasticsearch.svg" alt="ElasticSearch">
+        </div>
+        <div class="skill-item" title="RabbitMQ">
+          <img src="assets/images/rabbitmq.svg" alt="RabbitMQ">
+        </div>
+        <div class="skill-item" title="Docker">
+          <img src="assets/images/docker.svg" alt="Docker">
+        </div>
+        <div class="skill-item" title="AWS">
+          <img src="assets/images/aws.svg" alt="AWS">
+        </div>
+        <div class="skill-item" title="Git">
+          <img src="assets/images/git.svg" alt="Git">
+        </div>
+        <div class="skill-item" title="GitHub">
+          <img src="assets/images/github.svg" alt="GitHub">
+        </div>
       </div>
-      <div class="card project-card">
-        <h3>API de Auditorías</h3>
-        <p>Microservicio con RabbitMQ, Elasticsearch y Redis para auditorías escalables.</p>
-        <a href="https://github.com/Angelitoo777/API-Auditorias" target="_blank">Repositorio</a>
-      </div>
-      <div class="card project-card">
-        <h3>Subastas en Línea</h3>
-        <p>Aplicación backend para subastas con Node.js y MySQL.</p>
-        <a href="https://github.com/Angelitoo777/API-de-Un-Sistema-de-Subastas-en-Linea" target="_blank">Repositorio</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <div class="sep"></div>
+    <div class="sep"></div>
 
-  <!-- Contacto -->
-  <section id="contact" class="container section">
-    <h2>Contacto</h2>
-    <p>Puedes escribirme directamente al correo: 
+    <section id="projects" class="section reveal">
+      <h2>Proyectos Destacados</h2>
+      <div class="grid-3">
+        <div class="card project-card">
+          <img src="assets/images/facturacion.png" alt="Sistema de Facturación" class="project-img">
+          <h3>Sistema de Facturación</h3>
+          <p>Gestión de clientes, productos y facturas con generación de reportes en PDF.</p>
+          <a href="https://github.com/Angelitoo777/sistema-de-facturacion" target="_blank" class="btn-ghost">Repositorio</a>
+        </div>
+        <div class="card project-card">
+          <img src="assets/images/auditorias.png" alt="API de Auditorías" class="project-img">
+          <h3>API de Auditorías</h3>
+          <p>Microservicio con RabbitMQ, Elasticsearch y Redis para auditorías escalables.</p>
+          <a href="https://github.com/Angelitoo777/API-de-un-Sistema-de-Auditor-a-y-Eventos" target="_blank" class="btn-ghost">Repositorio</a>
+        </div>
+        <div class="card project-card">
+          <img src="assets/images/subastas.png" alt="Subastas en Línea" class="project-img">
+          <h3>Subastas en Línea</h3>
+          <p>Aplicación backend para subastas con Node.js y MySQL.</p>
+          <a href="https://github.com/Angelitoo777/sistema-de-subastas" target="_blank" class="btn-ghost">Repositorio</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="sep"></div>
+
+    <section id="contact" class="section reveal">
+      <h2>Contacto</h2>
+      <p>Puedes escribirme directamente a mi correo:</p>
       <a href="mailto:angeloropeza1604@gmail.com" class="btn-primary">angeloropeza1604@gmail.com</a>
-    </p>
-  </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Angel Oropeza. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
