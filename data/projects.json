@@ -18,7 +18,7 @@
   },
   {
     "name": "API-de-un-Sistema-de-Auditoria-y-Eventos",
-    "description": "API de auditoría que registra acciones de usuarios usando patrón Outbox; publica eventos a RabbitMQ y indexa en Elasticsearch para búsquedas.",
+    "description": "API de auditoría que registra acciones de usuarios usando patrón Outbox; publica eventos a RabbitMQ and indexa en Elasticsearch for searches.",
     "technologies": [
       "Node.js",
       "Express.js",
@@ -49,27 +49,5 @@
     "image": "./assets/images/subastas_console.png",
     "repo": "https://github.com/Angelitoo777/API-de-Un-Sistema-de-Subastas-en-Linea",
     "highlight": true
-  },
-  {
-    "name": "API-CMS",
-    "description": "API tipo CMS para gestionar usuarios y contenido.",
-    "technologies": [
-      "Node.js",
-      "Express.js",
-      "MySQL"
-    ],
-    "image": "./assets/images/cms_console.png",
-    "repo": "https://github.com/Angelitoo777/API-CMS",
-    "highlight": false
-  },
-  {
-    "name": "CocoLuna",
-    "description": "Proyecto en JavaScript con ejemplos de lógica y estructuras.",
-    "technologies": [
-      "JavaScript"
-    ],
-    "image": "./assets/images/cocoluna_console.png",
-    "repo": "https://github.com/Angelitoo777/CocoLuna",
-    "highlight": false
   }
 ]
